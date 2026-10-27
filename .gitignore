@@ -1,0 +1,21 @@
+# Local planning / Claude files - never commit
+HANDOFF.md
+PLAN.md
+CLAUDE.md
+.claude/
+
+# Unity project: track only the lab scripts and the level builder.
+# Everything else (Library, Temp, settings, TextMesh Pro, scene, prefabs) is regenerated - see README.md
+CoinRunner_FC231007_FC1222620/*
+!CoinRunner_FC231007_FC1222620/Assets/
+CoinRunner_FC231007_FC1222620/Assets/*
+!CoinRunner_FC231007_FC1222620/Assets/Scripts/
+!CoinRunner_FC231007_FC1222620/Assets/Editor/
+CoinRunner_FC231007_FC1222620/Assets/Scripts/*
+CoinRunner_FC231007_FC1222620/Assets/Editor/*
+!CoinRunner_FC231007_FC1222620/Assets/Scripts/*.cs
+!CoinRunner_FC231007_FC1222620/Assets/Editor/CoinRunnerBuilder.cs
+
+# OS
+.DS_Store
+Thumbs.db
